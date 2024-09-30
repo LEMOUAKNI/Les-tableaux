@@ -3,17 +3,16 @@
 
 int main()
 {
-    float T[4];
-    int i;
-    float s  ;
+    int T[4];
+    int i , s;
     for ( i = 0 ; i < 4 ; i++)
         {
         printf("Entrer le %d nombre :", i + 1);
-        scanf("%f",&T[i]);
-    }
-    s = 0;
+        scanf("%d",&T[i]);
+        }
+        s = 0;
     for( i = 0 ; i < 4; i++)
         s = s + T[i];
-    printf("La somme est :%.2f", s);
+        printf("La somme est :%d", s);
     return 0;
 }
